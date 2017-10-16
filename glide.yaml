@@ -1,2 +1,9 @@
-package: github.com/tosone/aliot
-import: []
+package: .
+import:
+- package: github.com/eclipse/paho.mqtt.golang
+  version: ~1.1.0
+- package: github.com/parnurzeal/gorequest
+  version: ~0.2.15
+- package: github.com/satori/go.uuid
+  version: ~1.1.0
+- package: github.com/tosone/aliot

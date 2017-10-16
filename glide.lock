@@ -1,4 +1,24 @@
-hash: 4e90aee38dbd39bd6dc2da9e1a1fb5a2a91a6d0277e464b8737d0e843e9fdb9d
-updated: 2017-09-07T22:25:10.013478425+08:00
-imports: []
+hash: c4d3699a89d57434b7d35966df1fabb2e8e4a0b15659274abedfb6cb186d8c46
+updated: 2017-10-16T11:42:17.998705877+08:00
+imports:
+- name: github.com/eclipse/paho.mqtt.golang
+  version: aff15770515e3c57fc6109da73d42b0d46f7f483
+  subpackages:
+  - packets
+- name: github.com/moul/http2curl
+  version: 9ac6cf4d929b2fa8fd2d2e6dec5bb0feb4f4911d
+- name: github.com/parnurzeal/gorequest
+  version: a578a48e8d6ca8b01a3b18314c43c6716bb5f5a3
+- name: github.com/pkg/errors
+  version: 2b3a18b5f0fb6b4f9190549597d3f962c02bc5eb
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+- name: github.com/tosone/aliot
+  version: 68cd8c72e9577a3aa97e7b95b9e207690d1cc248
+- name: golang.org/x/net
+  version: a04bdaca5b32abe1c069418fb7088ae607de5bd0
+  subpackages:
+  - proxy
+  - publicsuffix
+  - websocket
 testImports: []
